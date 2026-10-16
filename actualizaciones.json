@@ -1,0 +1,26 @@
+~/BarberiaApp $ mkdir -p ~/actualizacion_barberia
+cd ~/actualizacion_barberia || exit 1
+
+cat > actualizaciones.json <<'EOF'
+{
+  "versionCodeAdmin": 10,
+  "versionNameAdmin": "1.2",
+  "apkUrlAdmin": "https://github.com/josecamilod23-bit/LA-BARBERIA-ACTUALIZACIONES/releases/latest/download/LA-BARBERIA-ADMIN.apk",
+  "versionCodeBarbero": 10,
+  "versionNameBarbero": "1.2",
+  "apkUrlBarbero": "https://github.com/josecamilod23-bit/LA-BARBERIA-ACTUALIZACIONES/releases/latest/download/LA-BARBERIA-BARBERO.apk",
+  "notas": "Actualización LA'BARBERIA 1.2: mejora del logo en las notificaciones"
+}
+EOF
+
+cat actualizaciones.json
+{
+  "versionCodeAdmin": 10,
+  "versionNameAdmin": "1.2",
+  "apkUrlAdmin": "https://github.com/josecamilod23-bit/LA-BARBERIA-ACTUALIZACIONES/releases/latest/download/LA-BARBERIA-ADMIN.apk",
+  "versionCodeBarbero": 10,
+  "versionNameBarbero": "1.2",
+  "apkUrlBarbero": "https://github.com/josecamilod23-bit/LA-BARBERIA-ACTUALIZACIONES/releases/latest/download/LA-BARBERIA-BARBERO.apk",
+  "notas": "Actualización LA'BARBERIA 1.2: mejora del logo en las notificaciones"
+}
+~/actualizacion_barberia $
